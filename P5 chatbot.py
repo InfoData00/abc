@@ -92,7 +92,7 @@ pairs = [
 
 def chat():
     print("Hey there! I am Heisenberg at your service")
-    chat = Chat(pairs)
+    chat = Chat(pairs,reflections)
     chat.converse()
 
 
